@@ -1,4 +1,4 @@
-const MONGODB_URL = process.env;
+const MONGODBURL1 = process.env;
 /**
  * Production environment settings
  * (sails.config.*)
@@ -49,7 +49,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      url: MONGODB_URL,
+      url: MONGODBURL1,
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
