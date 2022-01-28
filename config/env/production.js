@@ -254,7 +254,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://backend-toppcards.herokuapp.com',
-      'https://backend-toppcards.herokuapp.com',
+      'https://backend-toppcards.herokuapp.com'
     ],
 
 
