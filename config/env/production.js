@@ -1,4 +1,5 @@
-const MONGODBURL1 = process.env;
+require('dotenv').config();
+const {MONGODBURL1} = process.env;
 /**
  * Production environment settings
  * (sails.config.*)
