@@ -1,4 +1,5 @@
-const MONGODBURL1 = process.env;
+require('dotenv').config();
+const {MONGODBURL1} = process.env;
 /**
  * Datastores
  * (sails.config.datastores)
@@ -50,7 +51,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-mongo',
-    url: 'mongodb+srv://SEI:RONALD123@sei.rjzoc.mongodb.net/cards?retryWrites=true&w=majority',
+    url: MONGODBURL1,
 
   },
 
