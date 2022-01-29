@@ -151,7 +151,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'https://backend-toppcards.herokuapp.com',
+        'http://localhost:3000',
       ]
     },
 
