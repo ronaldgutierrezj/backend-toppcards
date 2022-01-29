@@ -8,12 +8,11 @@
 module.exports = {
 
   attributes: {
-
     image: {
       type: 'string',
       required: true,
     },
-    name:{
+    name: {
       type: 'string',
       required: true,
     },
@@ -21,7 +20,7 @@ module.exports = {
       type: 'string',
       required: true,
     },
-    collection:{
+    collection: {
       type: 'string',
       required: true,
     },
@@ -29,7 +28,7 @@ module.exports = {
       type: 'string',
       required: true,
     },
-    releaseDate:{
+    releaseDate: {
       type: 'ref',
       columnType: 'datetime',
     },

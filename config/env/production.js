@@ -1,5 +1,5 @@
 require('dotenv').config();
-const {MONGODBURL1} = process.env;
+
 /**
  * Production environment settings
  * (sails.config.*)
@@ -50,7 +50,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      url: MONGODBURL1,
+      url: process.env.MONGODBURL1,
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -254,7 +254,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://backend-toppcards.herokuapp.com',
-      'https://backend-toppcards.herokuapp.com'
+      'https://backend-toppcards.herokuapp.com',
     ],
 
 
